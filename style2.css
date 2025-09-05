@@ -96,9 +96,10 @@ footer a{
 
 .imagem4{
     height: 40rem;
-    padding-right: 1.5rem;
+    padding-right: 8rem;
     margin: block;
     padding-top: 40px;
+
 }
 
 .desconto{
@@ -125,7 +126,7 @@ footer a{
 }
 .compra {
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     padding: 0.9rem;
     color: white;
     text-decoration: none;
