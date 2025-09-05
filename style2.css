@@ -1,6 +1,17 @@
-body{
-    background-color:#ffffff;
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+body{
+    background-color: var(--dark-blue);
+}
+
+:root {
+    --dark-grey: #1F1F1F;
+    --white: #FFF;
+    --dark-blue: #0b4f6c;
+}
+
 
 header {
     display: flex;
@@ -51,13 +62,7 @@ nav li:hover {
     height: 25rem;
 }
 
-.section1 {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    gap: 2rem;
-    padding: 20px;
-}
+
 
 .imagem3{
     height: 25rem;
@@ -65,17 +70,102 @@ nav li:hover {
 
 .pagina{
     display: flex;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    width: 93.8%;
+    text-align: center;
+    border-radius: 12px;
+    padding: 50px;
+    margin:auto;
+    margin-top: 2rem;
 }
 
 footer {
-    color: rgb(110, 110, 105);
+    color: rgb(189, 189, 181);
     text-align: center;
+    padding-top: 3rem;
 }
 
 footer a{
-    color: rgb(110, 110, 105);;
+    color: darkgrey;
     text-align: none;
     font-weight: 700;
     font-size: 1rem;
     text-decoration: none;
+}
+
+.imagem4{
+    height: 40rem;
+    padding-right: 1.5rem;
+    margin: block;
+    padding-top: 40px;
+}
+
+.desconto{
+    text-decoration: line-through;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.off{
+    color: green;
+}
+.titulo{
+    font-size: 1.7rem;
+}
+.avaliacao{
+    font-size: 1.3rem;
+}
+.preco{
+    font-size: 1.6rem;
+}
+
+.section7{
+    padding: 7rem;
+    
+}
+.compra {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    background-color: blue;
+    max-width: 51rem;
+}
+
+.compra:hover{
+    background-color:#29a73e;
+    color: white;
+    transition: .4s;
+}
+
+.compra1 {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    background-color: blue;
+    max-width: 51rem;
+}
+
+.compra1:hover{
+    background-color:#29a73e;
+    color: white;
+    transition: .4s;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
