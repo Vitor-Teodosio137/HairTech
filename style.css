@@ -1,5 +1,9 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 body{
-    background-color:#b8eff7;
+    background-color:#ffffff;
 }
 
 header {
@@ -54,11 +58,31 @@ nav li:hover {
 .section1 {
     display: flex;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content:space-around;  
+    gap: 2rem;
+    padding: 20px;
+}
+
+.section2 {
+    display: flex;
+    align-items: center; 
+    justify-content:space-around; 
     gap: 2rem;
     padding: 20px;
 }
 
 .imagem3{
     height: 25rem;
+}
+footer {
+    color: rgb(110, 110, 105);
+    text-align: center;
+}
+
+footer a{
+    color: rgb(110, 110, 105);;
+    text-align: none;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
 }
